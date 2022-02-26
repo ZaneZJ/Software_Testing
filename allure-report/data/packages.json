@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Oracle login test",
+    "children" : [ {
+      "name" : "Invalid login user",
+      "uid" : "34513299e26df98e",
+      "parentUid" : "acb69d97a3b2bb4016632fd49ed14852",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645898490880,
+        "stop" : 1645898503011,
+        "duration" : 12131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "acb69d97a3b2bb4016632fd49ed14852"
+  } ]
+}

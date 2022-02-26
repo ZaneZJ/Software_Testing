@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Oracle login test",
+    "children" : [ {
+      "name" : "Invalid login user",
+      "uid" : "34513299e26df98e",
+      "parentUid" : "37e5682ae8442c35fbab6cbd1d64bb1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645898490880,
+        "stop" : 1645898503011,
+        "duration" : 12131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "37e5682ae8442c35fbab6cbd1d64bb1f"
+  } ]
+}

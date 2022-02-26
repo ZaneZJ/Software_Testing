@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645898467033' stop='1645898503013'>
+    <name>Oracle login test</name>
+    <title>Oracle login test</title>
+    <test-cases>
+        <test-case start='1645898467074' status='passed' stop='1645898479229'>
+            <name>Invalid login user</name>
+            <title>Invalid login user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645898467082' status='passed' stop='1645898471889'>
+                    <name>Given User has opened Oracle Profile page</name>
+                    <title>Given User has opened Oracle Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898471889' status='passed' stop='1645898472099'>
+                    <name>When User inputs 123asd@gmail.com as the email</name>
+                    <title>When User inputs 123asd@gmail.com as the email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898472100' status='passed' stop='1645898475336'>
+                    <name>And User inputs Password123 as the password</name>
+                    <title>And User inputs Password123 as the password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898475336' status='passed' stop='1645898479091'>
+                    <name>And User presses sign in button</name>
+                    <title>And User presses sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898479091' status='passed' stop='1645898479226'>
+                    <name>Then User sees invalid credentials message</name>
+                    <title>Then User sees invalid credentials message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1645898479230' status='passed' stop='1645898490880'>
+            <name>Invalid login user</name>
+            <title>Invalid login user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645898479231' status='passed' stop='1645898483194'>
+                    <name>Given User has opened Oracle Profile page</name>
+                    <title>Given User has opened Oracle Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898483194' status='passed' stop='1645898483388'>
+                    <name>When User inputs gghhdy@gmail.com as the email</name>
+                    <title>When User inputs gghhdy@gmail.com as the email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898483389' status='passed' stop='1645898486687'>
+                    <name>And User inputs Password123gg as the password</name>
+                    <title>And User inputs Password123gg as the password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898486688' status='passed' stop='1645898490762'>
+                    <name>And User presses sign in button</name>
+                    <title>And User presses sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898490762' status='passed' stop='1645898490878'>
+                    <name>Then User sees invalid credentials message</name>
+                    <title>Then User sees invalid credentials message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1645898490880' status='passed' stop='1645898503011'>
+            <name>Invalid login user</name>
+            <title>Invalid login user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645898490881' status='passed' stop='1645898494856'>
+                    <name>Given User has opened Oracle Profile page</name>
+                    <title>Given User has opened Oracle Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898494856' status='passed' stop='1645898495101'>
+                    <name>When User inputs oiu723@gmail.com as the email</name>
+                    <title>When User inputs oiu723@gmail.com as the email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898495101' status='passed' stop='1645898498339'>
+                    <name>And User inputs Password7231233 as the password</name>
+                    <title>And User inputs Password7231233 as the password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898498340' status='passed' stop='1645898502875'>
+                    <name>And User presses sign in button</name>
+                    <title>And User presses sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645898502875' status='passed' stop='1645898503009'>
+                    <name>Then User sees invalid credentials message</name>
+                    <title>Then User sees invalid credentials message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

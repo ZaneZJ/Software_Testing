@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Feb 26 20:01:30 EET 2022","Sat Feb 26 20:01:43 EET 2022","12131","","Oracle login test","","Oracle login test","Invalid login user","Invalid login user",""
