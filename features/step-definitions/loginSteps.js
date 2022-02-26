@@ -21,15 +21,20 @@
 // });
 
 import { Given, When, Then } from '@wdio/cucumber-framework';
+import { tests } from "../support/tests";
 
-When("User inputs wrong email", async function() {
-    console.log("User inputs wrong email");
+When("User inputs {word} as the email", async function(email) {
+    // console.log("User inputs wrong email");
+    await tests.loginTest.fillEmailField(email);
 });
 
-When("User inputs wrong password", async function() {
-    console.log("User inputs wrong password");
+When("User inputs {word} as the password", async function(password) {
+    // console.log("User inputs wrong password");
+    await tests.loginTest.fillPasswordField(password);
+    await browser.pause(3000);
 });
 
 Then("User sees invalid credentials message", async function() {
-    console.log("User sees invalid credentials message");
+    // console.log("User sees invalid credentials message");
+    await tests.loginTest.assertInvalidCledentialsMsg();
 });
