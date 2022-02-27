@@ -136,7 +136,7 @@ exports.config = {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
         useCucumberStepReporter: true
-        }]],
+    }]],
        
 
 

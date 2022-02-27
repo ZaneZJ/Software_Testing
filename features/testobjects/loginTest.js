@@ -17,4 +17,9 @@ export class LoginTest {
       "Invalid username and/or password."
     );
   }
+
+  // async lighHousePerformanceCheck() {
+  //   const score = await browser.getPerformanceScore();
+  //   console.log('THE SCORE IS ${score}');
+  // }
 }
