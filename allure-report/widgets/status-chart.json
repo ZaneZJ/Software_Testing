@@ -1,11 +1,11 @@
 [ {
-  "uid" : "34513299e26df98e",
+  "uid" : "8379a139fd22167d",
   "name" : "Invalid login user",
   "time" : {
-    "start" : 1645898490880,
-    "stop" : 1645898503011,
-    "duration" : 12131
+    "start" : 1645898949646,
+    "stop" : 1645898961860,
+    "duration" : 12214
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 } ]

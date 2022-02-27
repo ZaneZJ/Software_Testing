@@ -4,10 +4,10 @@
     "uid" : "37e5682ae8442c35fbab6cbd1d64bb1f",
     "name" : "Oracle login test",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

@@ -1,17 +1,33 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
       "name" : "Invalid login user",
-      "uid" : "c8c6e1d083b678b5",
+      "uid" : "8379a139fd22167d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645898949646,
+        "stop" : 1645898961860,
+        "duration" : 12214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Invalid login user",
+      "uid" : "984b07d99a802f7a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1645898467074,
-        "stop" : 1645898479229,
-        "duration" : 12155
+        "start" : 1645898490880,
+        "stop" : 1645898503011,
+        "duration" : 12131
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,7 +38,24 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Invalid login user",
-      "uid" : "ab4763a18575b8f7",
+      "uid" : "f5de58e8e769b7df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645898937884,
+        "stop" : 1645898949641,
+        "duration" : 11757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Invalid login user",
+      "uid" : "de519e94a94cb2a3",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -39,22 +72,40 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Invalid login user",
-      "uid" : "34513299e26df98e",
+      "uid" : "7b1dcb82eb3166fb",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1645898490880,
-        "stop" : 1645898503011,
-        "duration" : 12131
+        "start" : 1645898924275,
+        "stop" : 1645898937882,
+        "duration" : 13607
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 2,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Invalid login user",
+      "uid" : "6f186e06a3a47319",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645898467074,
+        "stop" : 1645898479229,
+        "duration" : 12155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.102" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  } ]
+  } ],
+  "name" : "timeline"
 }

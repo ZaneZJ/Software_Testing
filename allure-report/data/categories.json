@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality",
+      "children" : [ {
+        "name" : "Invalid login user",
+        "uid" : "8379a139fd22167d",
+        "parentUid" : "62bc44b61f063177e0e09987a60195d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645898949646,
+          "stop" : 1645898961860,
+          "duration" : 12214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-98.0.4758.102" ]
+      } ],
+      "uid" : "62bc44b61f063177e0e09987a60195d9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
 }

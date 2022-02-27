@@ -1,22 +1,22 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "Invalid login user",
-    "uid" : "34513299e26df98e",
+    "uid" : "8379a139fd22167d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1645898490880,
-      "stop" : 1645898503011,
-      "duration" : 12131
+      "start" : 1645898949646,
+      "stop" : 1645898961860,
+      "duration" : 12214
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 2,
-    "retriesStatusChange" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-98.0.4758.102" ]
-  } ]
+  } ],
+  "name" : "behaviors"
 }
